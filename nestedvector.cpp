@@ -1,9 +1,4 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
-#include <string>
-#include <map>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 // PAIR WALA ARRAY generally hum vector use karte hai
 // uss vector mein har ek element ek pair hota hai

@@ -1,9 +1,4 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
-#include <string>
-#include <map>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
 //pair<datatype1, datatype2>;
