@@ -28,6 +28,8 @@ else{
 cout << "after doing ERASE operation\n";
 auto mo = m.find(5);
 m.erase(mo);//iterator dala yahan
+//m.erase(3); or we can directly write key in erase function
+
 // WARNING: yahan erase mein daalne wali iterator key exist karni chaiye 
 //matalab as key 5 already exists not like key 9 which do not exist 
 print(m);
