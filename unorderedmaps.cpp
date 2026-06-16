@@ -7,10 +7,12 @@ void print(unordered_map<int, string> &m){
     }
 }
 int main() {
+    
 //  DIFF B/W maps & unordered map
 // 1. lil bit syntax
 //2. time complexity
 //3. valid keys datatype
+
 unordered_map<int, string> m;
 m[1] = "abc";
 m[5] = "cdf";
@@ -26,7 +28,9 @@ print(m);
 //you cannot use pair in unordered map
 // unordered_map<pair<int, int> , string> m; this is wrong wont work
 // BUT maps mein work karega
+
 map<pair<int, int> , string> mp; //like this
 }
+
 // SO unordered maps ke andar u can't use pair, vector, sets only simple datatypes like int, string
 // BUT in maps u can use all vector, sets, pair , etc;

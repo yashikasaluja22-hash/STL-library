@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 // PAIR WALA ARRAY generally hum vector use karte hai
 // uss vector mein har ek element ek pair hota hai
+
 void printVec(vector<pair<int, int>> &v){
     cout << "size is " << v.size() << '\n';
     for(auto [x, y] : v){
