@@ -5,6 +5,7 @@ map<int, string> m;
 m[1] = "abc";
 m[3] = "bca";
 m[5] = "cab";
+//or map<int, string> m = {{1, "abc"}, {3, "bca"}, {5, "cab"}};
 //OR u can also give element to map like below
 m.insert({4, "egf"});
 map<int, string> ::iterator it;
